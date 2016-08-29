@@ -5,17 +5,18 @@ Current Version: Alpha Build 1
   - Metasploit Framework
   - Python 2.7 (Wine/Windows)
   - Py2Exe (Wine/Windows)
- 
-### Usage:
-> python
-> genarate.py
-
-Note: You must edit the shellcode.py to your desired, then you can customize the py2exe setup script
 
 ### Features:
 	1. Automatic Persistance (Since Python meterpreter is not supported)
 	2. Keep-Alive Connection (Persistent Connection with the host)
 	3. Still adding more features
+ 
+### How to use:
+	1. git clone https://github.com/lfasmpao/python-fud-payload
+	2. cd python-fud-payload
+	3. python generate.py
+
+Note: You must edit the shellcode.py to your desired in order to make this work. You can also customize the generate.py
 
 ##### Follow me on Twitter!:
 - http://twitter.com/lfasmpao
