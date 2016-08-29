@@ -1,5 +1,4 @@
 import sys
-
 try:
     import py2exe
 except:
@@ -7,7 +6,6 @@ except:
     sys.exit(-1)
 from distutils.core import setup
 sys.argv.append('py2exe')
-
 setup(
     options={
         'py2exe': {'bundle_files': 1, 'compressed': True,
@@ -20,6 +18,5 @@ setup(
             # "icon_resources": [(0, "app.ico")]     ### Icon to embed into the PE file.
         }
     ],
-    zipfile=None,
-    #service=[myservice]
+    zipfile=None
 )
